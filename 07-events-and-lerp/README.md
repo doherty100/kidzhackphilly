@@ -116,5 +116,5 @@ In this lesson we'll make more improvements to the *baseball toss* sample. Right
         1. Drag a new "Mouse: y" code block from the Mouse tray and attach it to the end of the "set item to" block you just added. Now click in the canvas, the alien should be tossing the baseball to the location you clicked on.  
         ![7-014](./images/7-014.jpg)  
         **figure 7-014** Use a click event to change the location where the alien tosses the baseball
-1. Try changing the position of the alien by moving them from 100, 400 to 150, 350. Remember, Does the code still work?
+1. Try changing the position of the alien by moving them from 100, 400 to 150, 350. Remember, we set up variables that are used to set the position where the alien is drawn. Does the code still work after you moved where the alien is drawn?
 1. Now share your creation so you can show everybody what an awesome event driven computer animation coder you are!
