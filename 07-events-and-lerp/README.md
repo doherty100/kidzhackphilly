@@ -1,6 +1,6 @@
-# Lesson 07 - Events and Linear Interpolation
+# Lesson 07 - events and linear interpolation
 
-In this lesson we'll be learning about two key new concepts:
+In this lesson we'll be learning about these new concepts:
 
 * [Event-driven programming](https://en.wikipedia.org/wiki/Event-driven_programming)
 * [Linear interpolation](https://en.wikipedia.org/wiki/Linear_interpolation) more commonly known as *lerp*
@@ -9,16 +9,22 @@ In this lesson we'll be learning about two key new concepts:
 
 In the previous lesson we continued working on the *baseball toss* sample and added some computer animation code that shows an alien tossing baseballs. To do this we needed to learn some new programming concepts.
 
+* [Loops](https://www.cs.utah.edu/~germain/PPS/Topics/loops.html)
+  * *Control* code blocks
+    * Every x milliseconds
+* [Variables](https://www.cs.utah.edu/~germain/PPS/Topics/variables.html)
+  * *Variable* code blocks
+    * set item to
+    * number
+    * get variable
 * [Conditional computer programming](https://en.wikipedia.org/wiki/Conditional_(computer_programming))
   * *Logic* code blocks
     * if do
     * logic compare
-* [Ojbect-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
+* [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
   * *Part* code blocks
     * Sticker
 * [Computer animation](https://en.wikipedia.org/wiki/Computer_animation)
-  * *Control* code bocks
-    * Every x milliseconds
   * *Part* code blocks
     * Sticker: move to
 
@@ -33,7 +39,7 @@ Before we start coding, we need to learn about *Events* and *Lerp* by completing
 
 In this lesson we'll make more improvements to the *baseball toss* sample. Right now our alien tosses baseballs over and over again to the same spot. Kind of boring huh? Wouldn't it be cool if we could add some code to make the alien toss baseballs to different places on the canvas?
 
-1. Remix the last version of the *baseball toss* sample you shared.
+1. Remix the last version of the *baseball toss* sample you shared. If you can't find it, don't worry, just import it from [baseball-toss-remix-2.kcode](../06-loops-and-variables/baseball-toss-remix-2.kcode)
 1. Move all of the code blocks after the "Draw: stamp sun smiling" and park them to the side. We will use some of them later.
 1. Add some instructions to the bottom of the canvas.
     1. Add a new *Text* part.

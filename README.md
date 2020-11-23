@@ -20,6 +20,7 @@ This repo contains resources and best practices for teaching digital fundamental
 
 ## Lessons
 
+* [06-loops-and-variables](./07-loops-and-variables/)
 * [07-events-and-lerp](./07-events-and-lerp/)
 
 ## The fine print
