@@ -2,8 +2,8 @@
 
 In this lesson we'll be focusing on these concepts:
 
-* [Computer Programming](https://en.wikipedia.org/wiki/Computer_programming)
-* [Computer Graphics](https://en.wikipedia.org/wiki/Computer_graphics)
+* [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
+* [Computer graphics](https://en.wikipedia.org/wiki/Computer_graphics)
 
 We'll also introduce a new concept:
 
@@ -13,7 +13,7 @@ We'll also introduce a new concept:
 
 ## Challenges
 
-Before we start, we need to learn about computer programming with *Kano Code* and computer graphics with *Drawing with coordinates* by completing these challenges:
+Before we start, we need to learn about computer programming with the *Kano Code editor* and computer graphics with *Drawing with coordinates* by completing these challenges:
 
 * [Challenges > Getting Started With Kano Code > Getting Started With Kano Code](https://code.kano.me/challenge/CLUB01/CLUB01_00_intro)
 * [Challenges > Getting Started With Kano Code > Drawing with Coordinates](https://code.kano.me/challenge/CLUB01/CLUB01_05_coordinates)
@@ -28,9 +28,9 @@ In this lesson we'll start building a sample program called *baseball toss*. We'
     1. When asked "Are you sure you want to start again?" click "Yes".
 1. Do you see the "when app starts" event in the code space? This is a special code block known as an "event" that fires when your program starts. When the event fires it runs the code inside the code block. Right now there isn't any code inside the "when app starts" event so your program doesn't do anything. That's why you see a blank white canvas to the right. Let's add some code!
 1. First, let's change the background color of the canvas to look like a blue sky.
-    1. Drag a new "Draw: set background color" code block from the Draw tray on the left and connect it to the inside of the "when app starts" event. Click on the color code block to the right and change the color to sky blue. You just wrote your first line of code!  
+    1. Drag a new "Draw: set background color" code block from the Draw tray on the left and connect it to the inside of the "when app starts" event. Click on the color code block to the right and change the color to blue. You just wrote your first line of code!  
     ![5-001](./images/5-001.jpg)  
-    **figure 5-001** Set the canvas background color to sky blue
+    **figure 5-001** Set the canvas background color to blue
 1. Next, let's draw a nice grassy hill on our canvas. In order to draw things on the canvas you have to move to the position where you want to draw it. Each position on the canvas has an "x" coordinate and a "y" coordinate. The x coordinate goes from left to right and ranges from 0 to 800. This is known as the "x axis". The y coordinate goes from top to bottom and ranges from 0 to 600. This is known as the "y axis". So the canvas is a square with an x axis and a y axis which is known as a "grid".
     1. To draw our hill we are going to use a shape called an "ellipse" which is like a stretched circle. Before we draw our ellipse we need to set the fill color to green. Drag a new "Draw: fill colour" code block from the Draw tray and connect it to the bottom of the previous code block, then change the color from black to green. Kano's headquarters are in the United Kingdom and they spell the word "color" differently than people in the United States.  
     ![5-002](./images/5-002.jpg)  
@@ -53,4 +53,4 @@ In this lesson we'll start building a sample program called *baseball toss*. We'
 
 ## What's next
 
-In the next lesson we'll add an alien that tosses baseballs to our *baseball toss*. See you next time!
+In the next lesson we'll add an alien that tosses baseballs to our *baseball toss* sample. See you next time!
