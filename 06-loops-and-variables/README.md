@@ -13,6 +13,18 @@ We'll also introduce these new topics:
 
 ## Review
 
+In the previous lesson we created our *baseball toss* sample and drew a picture of a field on a sunny day. To do this we needed to learn some new programming concepts.
+
+* [Computer Programming](https://en.wikipedia.org/wiki/Computer_programming)
+  * *Kano Code* editor
+* [Computer Graphics](https://en.wikipedia.org/wiki/Computer_graphics)
+  * *Draw* code blocks
+    * set background color
+    * fill colour
+    * move to
+    * ellipse
+    * stamp
+
 ## Challenges
 
 Before we start coding, we need to learn about *Loops* and *Variables* by completing these challenges:
@@ -25,7 +37,7 @@ Before we start coding, we need to learn about *Loops* and *Variables* by comple
 
 In this lesson we'll make improvements to the *baseball toss* sample by adding an alien who tosses baseballs across the canvas over and over again.
 
-1. Remix the last version of the *baseball toss* sample you shared.
+1. Remix the last version of the *baseball toss* sample you shared. If you can't find it, don't worry, just import it from [baseball-toss.kcode](../05-drawing-with-coordinates/baseball-toss.kcode)
 1. Let's add an alien stamp to the lower-left part of the canvas.
     1. Drag a new "Draw: move to x y" code block from the "Draw" tray and attach it to the last code block in the "when app starts" event. Set the x coordinate to 100 and the y coordinate to 400.
     1. Drag a new "Draw: stamp" code block from the "Draw" tray and attach it to the previous code block. Change the stamp to "Alien".  

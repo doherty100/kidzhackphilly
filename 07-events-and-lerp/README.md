@@ -39,7 +39,7 @@ Before we start coding, we need to learn about *Events* and *Lerp* by completing
 
 In this lesson we'll make more improvements to the *baseball toss* sample. Right now our alien tosses baseballs over and over again to the same spot. Kind of boring huh? Wouldn't it be cool if we could add some code to make the alien toss baseballs to different places on the canvas?
 
-1. Remix the last version of the *baseball toss* sample you shared. If you can't find it, don't worry, just import it from [baseball-toss-remix-2.kcode](../06-loops-and-variables/baseball-toss-remix-2.kcode)
+1. Remix the last version of the *baseball toss* sample you shared. If you can't find it, don't worry, just import it from [baseball-toss-remix-1.kcode](../06-loops-and-variables/baseball-toss-remix-1.kcode)
 1. Move all of the code blocks after the "Draw: stamp sun smiling" and park them to the side. We will use some of them later.
 1. Add some instructions to the bottom of the canvas.
     1. Add a new *Text* part.
