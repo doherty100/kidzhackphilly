@@ -11,6 +11,8 @@ We'll also introduce a new concept:
 
 ## Review
 
+In the previous lesson we learned about [disk storage](https://en.wikipedia.org/wiki/Disk_storage) hardware, and we learned about using [variables](https://en.wikipedia.org/wiki/Variable_(computer_science)) in software programs. In the hands on exercise, we used a single variable to control the rotation speed of three different stickers.
+
 ## Challenges
 
 Before we start, we need to learn about computer programming with the *Kano Code editor* and computer graphics with *Drawing with coordinates* by completing these challenges:
@@ -18,9 +20,9 @@ Before we start, we need to learn about computer programming with the *Kano Code
 * [Challenges > Getting Started With Kano Code > Getting Started With Kano Code](https://code.kano.me/challenge/CLUB01/CLUB01_00_intro)
 * [Challenges > Getting Started With Kano Code > Drawing with Coordinates](https://code.kano.me/challenge/CLUB01/CLUB01_05_coordinates)
 
-## Lesson
+## Hands on
 
-In this lesson we'll start building a sample program called *baseball toss*. We'll start by drawing a picture of a field on a sunny day.
+In this hands on exercise, we'll start building a new program called *baseball toss*. We'll start by drawing a picture of a field on a sunny day.
 
 1. Go to [Kano World](https://world.kano.me) and login.
 1. Start the Kano Code editor by navigating to Launch > Kano Code.

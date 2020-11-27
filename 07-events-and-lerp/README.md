@@ -35,9 +35,9 @@ Before we start coding, we need to learn about *Events* and *Lerp* by completing
 * [Challenges > Events > Create a Paintbrush](https://code.kano.me/challenge/CLUB04/CLUB04_01_paint)
 * [Challenges > Animation > Learning to Lerp](https://code.kano.me/challenge/CLUB012/CLUB012_01_lerp)
 
-## Lesson
+## Hands on
 
-In this lesson we'll make more improvements to the *baseball toss* sample. Right now our alien tosses baseballs over and over again to the same spot. Kind of boring huh? Wouldn't it be cool if we could add some code to make the alien toss baseballs to different places on the canvas?
+In this hands on exercise, we'll make more improvements to the *baseball toss* program. Right now our alien tosses baseballs over and over again to the same spot. Kind of boring huh? Wouldn't it be cool if we could add some code to make the alien toss baseballs to different places on the canvas?
 
 1. Remix the last version of the *baseball toss* sample you shared. If you can't find it, don't worry, just import it from [baseball-toss-remix-1.kcode](../06-loops-and-variables/baseball-toss-remix-1.kcode)
 1. Move all of the code blocks after the "Draw: stamp sun smiling" and park them to the side. We will use some of them later.

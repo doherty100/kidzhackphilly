@@ -33,9 +33,9 @@ Before we start coding, we need to learn about *Loops* and *Variables* by comple
 * [Challenges > Variables > What are Variables?](https://code.kano.me/challenge/CLUB03/CLUB03_00_catandmouse)
 * [Challenges > Variables > Animating with Variables](https://code.kano.me/challenge/CLUB03/CLUB03_01_balloon)
 
-## Lesson
+## Hands on
 
-In this lesson we'll make improvements to the *baseball toss* sample by adding an alien who tosses baseballs across the canvas over and over again.
+In this hands on exercise, we'll make improvements to the *baseball toss* program by adding an alien who tosses baseballs across the canvas over and over again.
 
 1. Remix the last version of the *baseball toss* sample you shared. If you can't find it, don't worry, just import it from [baseball-toss.kcode](../05-drawing-with-coordinates/baseball-toss.kcode)
 1. Let's add an alien stamp to the lower-left part of the canvas.
