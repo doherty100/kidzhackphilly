@@ -1,6 +1,6 @@
-# kidzhackphilly
+# #KidzHackPhilly
 
-When kids learn coding they learn how to hack life!
+When kids learn coding they learn how to hack life.
 
 ## Overview
 
@@ -8,15 +8,24 @@ This repo contains resources and best practices for teaching digital fundamental
 
 ## What kids need
 
-* A Windows 10 capable PC with a webcam, microphone and internet connectivity.
-  * A [Kano PC](https://kano.me/us/store/products/kano-pc) is reccomended which will give the child the experience of assembling a PC from components.
-* A [Kano Club](https://club.kano.me/) subscription.
+* Hardware
+  * A [Kano PC](https://kano.me/us/store/products/kano-pc) is recommended which will give the child the experience of assembling a PC from components. Alternatively any Windows 10 PC, Mac, iOS or Android device can be used.
+* Subscriptions
+  * A [Kano Club](https://club.kano.me/) subscription.
+* Apps
+  * [Kano Code](https://www.microsoft.com/store/productId/9P4Q1393C2DZ)  
+  *Note*: Web, Android and iOS versions of this app can be used as well.
 
-## What teachers need
+## What coaches need
 
-* A Windows 10 capable PC with a webcam, microphone, internet connectivity.
-* A [Kano Club](https://club.kano.me/) subscription.
-* A [Microsoft 365](https://www.microsoft.com/en-us/microsoft-365) subscription.
+* Hardware
+  * A Windows 10 PC is recommended. Alternatively a Mac, iOS or Android device can be used.
+* Subscriptions
+  * A [Kano Club](https://club.kano.me/) subscription.
+  * A [Microsoft 365](https://www.microsoft.com/en-us/microsoft-365) subscription.
+* Apps
+  * [Kano Code](https://www.microsoft.com/store/productId/9P4Q1393C2DZ)  
+  *Note*: Web, Android and iOS versions of this app can be used as well.
 
 ## Lessons
 
@@ -25,7 +34,7 @@ This repo contains resources and best practices for teaching digital fundamental
 * [06-loops-and-variables](./06-loops-and-variables/)
 * [07-events-and-lerp](./07-events-and-lerp/)
 
-## The fine print
+## Kano World fine print
 
 * [Terms of use](https://world.kano.me/terms-of-use)
 * [Community guidelines](https://world.kano.me/community-guidelines)

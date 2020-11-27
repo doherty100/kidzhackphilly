@@ -13,15 +13,25 @@ In this lesson we'll be focusing on these concepts:
 
 In the previous lesson we created our *baseball toss* sample and drew a picture of a field on a sunny day. To do this we needed to learn some new programming concepts.
 
-* [Computer Programming](https://en.wikipedia.org/wiki/Computer_programming)
-  * *Kano Code* editor
-* [Computer Graphics](https://en.wikipedia.org/wiki/Computer_graphics)
+* [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
+  * [Kano Code](https://www.microsoft.com/store/productId/9P4Q1393C2DZ) app
+* [Computer graphics](https://en.wikipedia.org/wiki/Computer_graphics)
   * *Draw* code blocks
-    * set background color
-    * fill colour
-    * move to
-    * ellipse
-    * stamp
+    * set background color  
+      ![00-080-010](../images/00-080-010.draw.setbackgroundcolor.jpg)  
+      **figure 00-080-010** "Set background color" code block from Draw tray
+    * fill colour  
+      ![00-080-040](../images/00-080-040.draw.fillcolour.jpg)  
+      **figure 00-080-040** "Fill colour" code block from Draw tray
+    * move to  
+      ![00-080-070](../images/00-080-070.draw.moveto.jpg)  
+      **figure 00-080-070** "Move to" code block from Draw tray
+    * ellipse  
+      ![00-080-130](../images/00-080-130.draw.ellipse.jpg)  
+      **figure 00-080-130** "Ellipse" code block from Draw tray
+    * stamp  
+      ![00-080-190](../images/00-080-190.draw.stamp.jpg)  
+      **figure 00-00-080-190** "Stamp" code block from Draw tray
 
 ## Challenges
 
