@@ -9,7 +9,7 @@ In this lesson we'll be focusing on these concepts:
 
 ## Challenges
 
-Before we start, we need to learn about computer programming with the *Kano Code editor* and computer graphics with *Drawing with coordinates* by completing these challenges:
+Before we start, we need to learn about variables by completing this challenges:
 
 * [Challenges > Variables > Variables 1: Dancing Bugs](https://code.kano.me/challenge/loops/FN004_variables_1)
 
