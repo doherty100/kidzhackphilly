@@ -2,8 +2,8 @@
 
 In this lesson we'll be focusing on these concepts:
 
-* [Disk storage](https://en.wikipedia.org/wiki/Disk_storage)
-* [Variables](https://en.wikipedia.org/wiki/Variable_(computer_science))
+* [Disk storage](https://en.wikipedia.org/wiki/Disk_storage) hardware
+* Using [variables](https://en.wikipedia.org/wiki/Variable_(computer_science)) in computer software
 
 ## Review
 
