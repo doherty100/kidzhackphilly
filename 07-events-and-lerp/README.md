@@ -13,26 +13,26 @@ In the previous lesson we continued working on the *baseball toss* program by ad
   * *Logic* code blocks
     * if do  
         ![00-030-010](../images/00-030-010.logic.ifdo.jpg)  
-        **figure 00-030-010** "If do" condition code block from the "Logic" tray
+        **figure 00-030-010** "If do" condition code block from the Logic tray
     * compare  
         ![00-030-030](../images/00-030-030.logic.compare.jpg)  
-        **figure 00-030-030** "Compare" expression code block from the "Logic" tray
+        **figure 00-030-030** "Compare" expression code block from the Logic tray
 * [Loops](https://www.cs.utah.edu/~germain/PPS/Topics/loops.html)
   * *Control* code blocks
     * Every do  
         ![00-020-010](../images/00-020-010.control.everydo.jpg)  
-        **figure 00-020-010** "Every do" loop code block from the "Control" tray
+        **figure 00-020-010** "Every do" loop code block from the Control tray
 * [Variables](https://www.cs.utah.edu/~germain/PPS/Topics/variables.html)
   * *Variable* code blocks
     * number  
         ![00-050-010](../images/00-050-010.variables.number.jpg)  
-        **figure 00-050-010** "Number" value code block from the "Variables tray"
+        **figure 00-050-010** "Number" value code block from the Variables tray
     * get variable  
         ![00-050-050](../images/00-050-050.variables.getvariable.jpg)  
-        **figure 00-050-050** "Get variable" value code block from the "Variables tray"
+        **figure 00-050-050** "Get variable" value code block from the Variables tray
     * set variable  
         ![00-050-040](../images/00-050-040.variables.setvariable.jpg)  
-        **figure 00-050-040** "Set variable" method code block from the "Variables" tray
+        **figure 00-050-040** "Set variable" method code block from the Variables tray
 * [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
   * *Part* code blocks
     * Sticker  
@@ -40,7 +40,7 @@ In the previous lesson we continued working on the *baseball toss* program by ad
       **figure 00-500-100** "Sticker" part from "Add Parts"
       * move to  
         ![00-500-170](../images/00-500-170.parts.sticker.moveto.jpg)  
-        **figure 00-500-170** "Move to" method on "Sticker" part which implements implements [computer animation](https://en.wikipedia.org/wiki/Computer_animation)
+        **figure 00-500-170** "Move to" method on "Sticker" part which is used for [computer animation](https://en.wikipedia.org/wiki/Computer_animation)
 
 ## Challenges
 
@@ -53,18 +53,18 @@ Before we start coding, we need to learn about events and linear interpolation (
 
 In this hands on exercise, we'll make more improvements to the *baseball toss* program. Right now our alien tosses baseballs over and over again to the same spot. Kind of boring huh? Wouldn't it be cool if we could add some code to make the alien toss baseballs to different places on the canvas?
 
-1. Remix the last version of the *baseball toss* sample you shared. If you can't find it, don't worry, just import it from [baseball-toss-remix-1.kcode](../06-loops-and-variables/baseball-toss-remix-1.kcode) in the previous lesson.
+1. Remix the last version of the *baseball toss* creation you shared. If you can't find it, don't worry, just import it from [baseball-toss-remix-1.kcode](../06-loops-and-variables/baseball-toss-remix-1.kcode) in the previous lesson.
 1. Move all of the code blocks after the "Draw: stamp sun smiling" and park them to the side. We will use some of them later.
-1. Add some instructions to the bottom of the canvas.
+1. Add some instructions to the bottom of the canvas so people know how to use your program.
     1. Add a new *Text* part.
     1. Drag a new "Text: value 'Text'" code block from the Text tray and connect it to the bottom of the "Draw: stamp Sun smiling" code block.
     1. Change the value "Text" to "Click where you want the alien to toss the baseball"
     1. Drag a new "Text: move to x y" code block from the Text tray and connect it to the bottom of the previous code block. Change the coordinates to x = 400, y= 580.  
         ![7-001](./images/7-001.jpg)  
         **figure 7-001** New help text
-1. Add two new variables named "alienx" and "alieny" that we can use to control where the alien gets drawn. This will make it easy to move the alien later, or to refer to the current position of the alien when the baseball gets tossed.
-    1. Set "alienx" to "100".
-    1. Set "alieny" to "400".  
+1. Add two new variables named "alienx" and "alieny" that we can use to control where the alien gets drawn. This will make it easy to move the alien later, or to find the current position of the alien when the baseball gets tossed.
+    1. Set "alienx" to 100.
+    1. Set "alieny" to 400.  
         ![7-002](./images/7-002.jpg)  
         **figure 7-002** New variables
 1. Find the "Draw: move to" and "Draw: stamp Alien" code blocks you parked and attach them to the previous code bock. Set the x and y coordinates of the "Draw: move to" code block to the "alienx" and "alieny" variables.  
@@ -76,7 +76,7 @@ In this hands on exercise, we'll make more improvements to the *baseball toss* p
         **figure 7-004** Rename the Sticker part to "Baseball"
 1. Find the "Set baseballx to 200" code block you parked and attach it to the previous code block.
     1. Rename "baseballx" to "baseballnowx" by clicking the dropdown arrow and choosing "Rename variable". We are going to be adding a lot more variables and this will make your code more readable. This variable will track the current x coordinate of the baseball.
-    1. Set the value of "baseballnowx" to the variable "alienx". This will ensure that the baseball always gets tossed from the same x coordinate where the alien was drawn.  
+    1. Set the value of "baseballnowx" to the variable "alienx". This will ensure that the baseball toss always starts from the same x coordinate where the alien was drawn.  
         ![7-005](./images/7-005.jpg)  
         **figure 7-005** Modify "baseballx" variable
 1. Create three new variables we will use to track the starting and ending coordinates of the baseball toss.
@@ -94,24 +94,26 @@ In this hands on exercise, we'll make more improvements to the *baseball toss* p
 1. We need to add some code to reset the "lerppct" variable to 0 inside the loop. The "lerppct" variable is a percentage that will change from 0 to 100. When the baseball toss starts the "lerppct" will be 0, then halfway through the baseball toss the "lerppct" will be 50, then at the end of the baseball toss "lerppct" will be 100. If "lerpct" is greater than 100 we need to reset it back to 0 for a new baseball toss.
     1. Drag a new "if do" code block from the Logic tray and connect it inside the "Every 1 milliseconds" loop.
     1. Drag a new "compare" code block from the Logic tray and connect it to the right of the "if" on the previous code block.
-        1. Set the first value to the "lerppct" variable. This the first value that will be evaluated in the comparison expression.
+        1. Set the first value to the "lerppct" variable. This is the first value that will be evaluated in the comparison expression.
         1. Change the comparison operator from "=" to ">" which means "greater than". This sets the type of comparison to be performed in the comparison expression.
-        1. Set the second value to "100". This is the second value that will be evaluated in the comparison expression. So if the comparison express evaluates to "true" then the code in the "do" section gets run.
-    1. Drag a new "set variable" code block from the variables tray and connect it to the bottom of "if". Change "item" to "lerppct" and set the value to 0. This code only runs if the comparison expression evaluates to "true".  
+        1. Set the second value to "100". This is the second value that will be evaluated in the comparison expression. So if the comparison expression evaluates to "true" then the code in the "do" section gets run.
+    1. Drag a new "set variable" code block from the variables tray and connect it to the bottom of "if". Change "item" to "lerppct" and set the value to 0. This code only runs if the comparison expression evaluates to "true" which means we need to rest "lerppct".  
     ![7-009](./images/7-009.jpg)  
     **figure 7-009** Reset the "lerppct" variable when it's greater than 100
-1. Find the "Baseball: move to x y" code block you parked and attach it to the bottom of the "if do" code block but still inside the "Every 1 milliseconds" loop. Change the y coordinate from "400" to the variable "baseballnowy". You can go ahead and toss the rest of the code blocks you have parked to the right in the trash, you won't be needing them.  
+1. Find the "Baseball: move to x y" code block you parked and attach it to the bottom of the "if do" code block but still inside the "Every 1 milliseconds" loop. Change the y coordinate from 400 to the variable "baseballnowy". You can go ahead and throw the rest of the code blocks you have parked to the right in the trash, you won't be needing them.  
     ![7-010](./images/7-010.jpg)  
     **figure 7-010** Add "Baseball: move to" back into the loop
-1. Now we need to add some code at the end of the loop that adjusts the values of the "baseballnowx" and "baseballnowy" variables so that each time the loop runs the baseball will move. Calculating the next x and y coordinate where the baseball should move isn't as easy as it sounds. Fortunately we have a handy *lerp* code block! "Lerp" is short for [linear interpolation](https://en.wikipedia.org/wiki/Linear_interpolation), which is a mathematical formula used to estimate where a given number should be in a range of numbers using a percentage. Since we need to calculate both an x and a y coordinate for the baseball to move to, we are going to use the *lerp* code block twice inside our loop, once for "baseballnowx" and again for "baseballnowy".
+1. Now we need to add some code at the end of the loop that adjusts the values of the "baseballnowx" and "baseballnowy" variables so that each time the loop runs the baseball will move. Calculating the next x and y coordinates where the baseball should move to isn't as easy as it sounds. Fortunately we have a handy *lerp* code block! "Lerp" is short for [linear interpolation](https://en.wikipedia.org/wiki/Linear_interpolation), which is a mathematical formula used to estimate where a given number should be in a range of numbers using a percentage. Since we need to calculate both an x and a y coordinate for the baseball to move to, we are going to use the *lerp* code block twice inside our loop, once for "baseballnowx" and a second time for "baseballnowy".
     1. Drag a new "set variable" code block from the Variables tray and attach it to the bottom of the "Baseball: move to x" code block. Change "item" to "baseballnowx".
-    1. Drag a new "lerp from 0 to 200 % 50" code block from the Math tray and attach it to the right of the "set baseballnowx to" codeblock you just created.
+    1. Drag a new "lerp from 0 to 200 % 50" code block from the Math tray and attach it to the right of the "set baseballnowx to" codeblock you just created.  
+        ![00-040-050](../images/00-040-050.math.lerp.jpg)  
+        **figure 00-040-050** "Lerp" code block from the Math tray
         1. Change 0 to the variable "alienx". This means the x coordinate range will always start at the same x position as the alien.
         1. Change 200 to the variable "baseballendx". This means the x coordinate range will end at "baseballendx". We originally set this to 800 so that when the program starts the alien is tossing the baseball from left to right.
         1. Change "50" to the variable "lerppct". This means that each time this code executes, we will use the current value of "lerppct".
             ![7-011](./images/7-011.jpg)  
             **figure 7-011** Move the baseball along the x axis using a *lerp* calculation
-    1. Now we need to do the same thing for the y coordinate stored in the "baseballnowy" variable. Let's use a shortcut. Right-click on the "set baseballnowx to" code block and select "Duplicate", attach the new code block to the bottom of the previous code block, and make the following changes:
+    1. Now we need to do the same thing for the y coordinate stored in the "baseballnowy" variable. Let's use a shortcut. Right-click on the "set baseballnowx to" code block and select "Duplicate", attach the new code block to the bottom of the previous code block, and then make the following changes:
         1. Change "baseballnowx" to "baseballnowy".
         1. Change "alienx" to "alieny".
         1. Change "baseballendx" to "baseballendy".  
@@ -121,7 +123,7 @@ In this hands on exercise, we'll make more improvements to the *baseball toss* p
     1. Drag a new "increment variable" code block from the Math tray and connect it to the bottom of the previous code block.  
         ![00-040-020.math.incrementvariable.jpg](../images/00-040-020.math.incrementvariable.jpg)  
         **figure 00-040-020** Increment variable code block from the Math tray
-    1. Change "item" to "lerppct". This code block will now add 1 to the current value of the "lerppct" variable and store the result back into the "lerppct" variable.  
+    1. Change "item" to "lerppct". This code block will now add 1 to the current value of the "lerppct" variable each time the loop executes and store the result back into the "lerppct" variable.  
     ![7-013](./images/7-013.jpg)  
     **figure 7-013** Increment the value of the "lerppct" variable by one
 1. Now comes the really cool part. Let's add a new "Mouse" part to our code, then use [Event-driven programming](https://en.wikipedia.org/wiki/Event-driven_programming) to control where the alien throws the baseball on the canvas.
