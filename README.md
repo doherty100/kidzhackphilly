@@ -20,6 +20,7 @@ This repo contains resources and best practices for teaching digital fundamental
 
 ## Lessons
 
+* [04-storage-and-variables](./04-storage-and-variables/)
 * [05-drawing-with-coordinates](./05-drawing-with-coordinates/)
 * [06-loops-and-variables](./06-loops-and-variables/)
 * [07-events-and-lerp](./07-events-and-lerp/)
