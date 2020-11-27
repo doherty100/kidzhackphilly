@@ -4,7 +4,7 @@ When kids learn coding they learn how to hack life!
 
 ## Overview
 
-This repo contains resources and best practices for teaching digital fundamentals and JavaScript coding skills to kids from 8 to 12 years of age.
+This repo contains resources and best practices for teaching digital fundamentals and coding skills to kids from 8 to 12 years of age.
 
 ## What kids need
 
