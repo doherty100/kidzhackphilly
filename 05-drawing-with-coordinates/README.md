@@ -48,10 +48,7 @@ In this hands on exercise, we'll start building a new program called *baseball t
     1. Drag a new "Draw: stamp" code block from the Draw tray and attach it to the previous code block. Wait, that drew a crocodile in the sky, and we want a sun. Change the stamp from "Crocodile" to "Sun smiling". Try changing the size and rotation and see what happens.  
     ![5-005](./images/5-005.jpg)  
     **figure 5-005** Draw a "Sun smiling" stamp.
-1. Now share your creation so everybody knows you can write programs that draw pictures!
-    1. Click "Share"
-    1. Set the title to "Baseball toss"
-    1. Set the description to "My first program!"
+1. Now share your creation so everybody knows you can write a computer graphics program! See [baseball-toss.kcode](./baseball-toss.kcode) for a completed version.
 
 ## What's next
 

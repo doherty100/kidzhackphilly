@@ -5,17 +5,19 @@ In this lesson we'll be focusing on these concepts:
 * [Disk storage](https://en.wikipedia.org/wiki/Disk_storage) hardware
 * Using [variables](https://en.wikipedia.org/wiki/Variable_(computer_science)) in computer software
 
+See [04-storage-and-variables.pptx](./04-storage-and-variables.pptx) for lesson presentation materials.
+
 ## Review
 
 ## Challenges
 
-Before we start, we need to learn about variables by completing this challenges:
+Before we start, we need to learn about variables by completing this challenge:
 
 * [Challenges > Variables > Variables 1: Dancing Bugs](https://code.kano.me/challenge/loops/FN004_variables_1)
 
 ## Hands on
 
-In this lesson we'll use a single variable to control the rotation speed of three different stickers, a centipede, a bee and a ladybug.
+In this hands on exercise, we'll use a single variable to control the rotation speed of three different stickers, a centipede, a bee and a ladybug.
 
 1. Keep the last challenge open after you complete it.  
     ![4-001](./images/4-001.jpg)  
@@ -25,7 +27,7 @@ In this lesson we'll use a single variable to control the rotation speed of thre
     1. Change the number from 2 to 15. The rotation rate changed for all three stickers, pretty cool!  
         ![4-002](./images/4-002.jpg)  
         **figure 4-002** Use a variable to change the rotation rate of three different stickers
-1. Now share your creation.
+1. Now share your creation. See [dancing-bugs-modified.kcode](./dancing-bugs-modified.kcode) for a complete version.
 
 ## What's next
 

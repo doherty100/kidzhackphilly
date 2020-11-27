@@ -123,4 +123,4 @@ In this hands on exercise, we'll make more improvements to the *baseball toss* p
         ![7-014](./images/7-014.jpg)  
         **figure 7-014** Use a click event to change the location where the alien tosses the baseball
 1. Try changing the position of the alien by moving them from 100, 400 to 150, 350. Remember, we set up variables that are used to set the position where the alien is drawn. Does the code still work after you moved where the alien is drawn?
-1. Now share your creation so you can show everybody what an awesome event driven computer animation coder you are!
+1. Now share your creation so you can show everybody what an awesome event driven computer animation programmer you are! For a completed version see [baseball-toss-remix-2.kcode](./baseball-toss-remix-2.kcode).

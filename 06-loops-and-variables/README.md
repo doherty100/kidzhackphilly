@@ -76,7 +76,7 @@ In this hands on exercise, we'll make improvements to the *baseball toss* progra
     ![6-006](./images/6-006.jpg)  
         **figure 6-006** Loop code which moves the baseball
 1. Try changing the starting position of where the baseball toss begins by changing the initial setting of the "baseballx" from 200 to some other number. What happened?
-1. Now share your creation and everybody will know that you can write computer animation code!
+1. Now share your creation and everybody will know that you can write computer animation programs! See [baseball-toss-remix-1.kcode](./baseball-toss-remix-1.kcode) for a completed version.
 
 ## What's next
 
