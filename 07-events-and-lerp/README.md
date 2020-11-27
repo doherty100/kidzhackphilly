@@ -9,6 +9,11 @@ In this lesson we'll be learning about these new concepts:
 
 In the previous lesson we continued working on the *baseball toss* program by adding an alien that tosses baseballs using computer animation code. To do this we needed to learn some new programming concepts, including:
 
+* [Arithmetic](https://en.wikipedia.org/wiki/Arithmetic)
+  * *Math* code blocks
+    * arithmetic  
+        ![00-040-020](../images/00-040-020.math.arithmetic.jpg)  
+        **figure 00-040-020** "Arithmetic" value code block form the Math tray
 * [Conditional computer programming](https://en.wikipedia.org/wiki/Conditional_(computer_programming))
   * *Logic* code blocks
     * if do  
@@ -40,7 +45,8 @@ In the previous lesson we continued working on the *baseball toss* program by ad
       **figure 00-500-100** "Sticker" part from "Add Parts"
       * move to  
         ![00-500-170](../images/00-500-170.parts.sticker.moveto.jpg)  
-        **figure 00-500-170** "Move to" method on "Sticker" part which is used for [computer animation](https://en.wikipedia.org/wiki/Computer_animation)
+        **figure 00-500-170** "Move to" method on "Sticker" part
+* [computer animation](https://en.wikipedia.org/wiki/Computer_animation)
 
 ## Challenges
 
@@ -121,8 +127,8 @@ In this hands on exercise, we'll make more improvements to the *baseball toss* p
             **figure 07-120** Move the baseball along the y axis using a *lerp* calculation
 1. We only have one thing left to do to complete our loop. In order to get our baseball to move we need to increase the value of the "lerppct" variable. This can be done easily with a single codeblock.
     1. Drag a new "increment variable" code block from the Math tray and connect it to the bottom of the previous code block.  
-        ![00-040-020.math.incrementvariable.jpg](../images/00-040-020.math.incrementvariable.jpg)  
-        **figure 00-040-020** Increment variable code block from the Math tray
+        ![00-040-030.math.incrementvariable.jpg](../images/00-040-030.math.incrementvariable.jpg)  
+        **figure 00-040-030** Increment variable code block from the Math tray
     1. Change "item" to "lerppct". This code block will now add 1 to the current value of the "lerppct" variable each time the loop executes and store the result back into the "lerppct" variable.  
     ![07-130](./images/07-130.jpg)  
     **figure 07-130** Increment the value of the "lerppct" variable by one
