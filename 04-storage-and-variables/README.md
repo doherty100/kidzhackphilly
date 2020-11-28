@@ -11,6 +11,8 @@ Coaches, see [04-storage-and-variables.pptx](./04-storage-and-variables.pptx) fo
 
 ## Review
 
+In the previous lesson we learned about hardware called [random access memory](https://en.wikipedia.org/wiki/Random-access_memory) or "RAM", and we learned about using [loops](https://www.cs.utah.edu/~germain/PPS/Topics/loops.html) in software. In the hands on exercise, we completed a challenge uses loops to draw randomly sized holes on a block of swiss cheese, then we made changes to the challenge to draw bigger holes.
+
 ## Challenges
 
 It's time to complete a challenge. Keep the challenge open after you complete it.
