@@ -110,7 +110,7 @@ In this hands on exercise, we'll make improvements to the *baseball toss* progra
             1. Find the "compare" code block in the Logic tray.  
             ![00-030-030](../images/00-030-030.logic.compare.jpg)  
             **figure 00-030-030** "Compare" code block in Logic tray
-            1. Drag a new "variable get" code block from the Variables tray and drop it into the first slot of the new "compare" code block. Change "item" to "baseballx".
+            1. Drag a new "get variable" code block from the Variables tray and drop it into the first slot of the new "compare" code block. Change "item" to "baseballx".
             1. Drag a new "number" code block from the Variables tray and drop it into the second slot of the new "compare" code block. Change the number 0 to 850. Remember, the x axis of the canvas only goes from 0 to 800, so 850 is off the right side of the canvas in imaginary space. This will make it look like the baseball is getting tossed off the canvas.  
             ![06-050](./images/06-050.jpg)  
             **figure 06-050** "If do" code block checks of "baseballx" is greater than 850.
