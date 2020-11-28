@@ -13,13 +13,13 @@ Coaches, see [04-storage-and-variables.pptx](./04-storage-and-variables.pptx) fo
 
 ## Challenges
 
-It's time to complete your first challenge! Keep the challenge open after you complete it.
+It's time to complete a challenge. Keep the challenge open after you complete it.
 
 * [Challenges > Variables > Variables 1: Dancing Bugs](https://code.kano.me/challenge/loops/FN004_variables_1)
 
 ## Hands on
 
-In this hands on exercise, we'll make changes to the program from the challenge you just completed.
+In this hands on exercise, we'll make changes to the challenge you just completed.
 
 1. Find the challenge you just completed.  
     ![04-010](./images/04-010.jpg)  
