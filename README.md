@@ -13,8 +13,7 @@ This repo contains resources and best practices for teaching digital fundamental
 * Subscriptions
   * A [Kano Club](https://club.kano.me/) subscription.
 * Apps
-  * [Kano Code](https://www.microsoft.com/store/productId/9P4Q1393C2DZ)  
-  *Note*: Web, Android and iOS versions of this app can be used as well.
+  * [Kano Code](https://www.microsoft.com/store/productId/9P4Q1393C2DZ) for Windows is recommended. Web, Android and iOS versions of this app can be used as well.
 
 ## What coaches need
 
@@ -24,8 +23,9 @@ This repo contains resources and best practices for teaching digital fundamental
   * A [Kano Club](https://club.kano.me/) subscription.
   * A [Microsoft 365](https://www.microsoft.com/en-us/microsoft-365) subscription.
 * Apps
-  * [Kano Code](https://www.microsoft.com/store/productId/9P4Q1393C2DZ)  
-  *Note*: Web, Android and iOS versions of this app can be used as well.
+  * [Microsoft PowerPoint](https://www.microsoft.com/en-us/microsoft-365/powerpoint)
+  * [Microsoft Forms](https://go.microsoft.com/fwlink/p/?linkid=2115709)
+  * [Kano Code](https://www.microsoft.com/store/productId/9P4Q1393C2DZ) for Windows is recommended. Web, Android and iOS versions of this app can be used as well.
 
 ## Lessons
 
