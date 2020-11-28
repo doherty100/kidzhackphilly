@@ -3,7 +3,7 @@
 In this lesson we'll be focusing on these concepts:
 
 * [Arithmetic](https://en.wikipedia.org/wiki/Arithmetic)
-* [Conditional computer programming](https://en.wikipedia.org/wiki/Conditional_(computer_programming))
+* [Conditional programming](https://en.wikipedia.org/wiki/Conditional_(computer_programming))
 * [Loops](https://www.cs.utah.edu/~germain/PPS/Topics/loops.html)
 * [Variables](https://www.cs.utah.edu/~germain/PPS/Topics/variables.html)
 * [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
@@ -102,7 +102,7 @@ In this hands on exercise, we'll make improvements to the *baseball toss* progra
     1. Change the number in the second slot of the new "math arithmetic" object from 0 to 1. The baseball is now moving but we only got one toss. This is because the baseball keeps going after it moves off the right side of the canvas.  
     ![06-040](./images/06-040.jpg)  
     **figure 06-040** Loop code which moves the baseball
-    1. We need to use [conditional computer programming](https://en.wikipedia.org/wiki/Conditional_(computer_programming)) to reset "baseballx" when the x coordinate is off the right side of the canvas.
+    1. We need to use [conditional programming](https://en.wikipedia.org/wiki/Conditional_(computer_programming)) to reset "baseballx" when the x coordinate is off the right side of the canvas.
         1. Find the "if do" code block in the Logic tray.  
         ![00-030-010](../images/00-030-010.logic.ifdo.jpg)  
         **figure 00-030-010** "If do" code block from the Logic tray.
