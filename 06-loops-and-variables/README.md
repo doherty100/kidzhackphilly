@@ -113,7 +113,7 @@ In this hands on exercise, we'll make improvements to the *baseball toss* progra
             1. Drag a new "get variable" code block from the Variables tray and drop it into the first slot of the new "compare" code block. Change "item" to "baseballx".
             1. Drag a new "number" code block from the Variables tray and drop it into the second slot of the new "compare" code block. Change the number 0 to 850. Remember, the x axis of the canvas only goes from 0 to 800, so 850 is off the right side of the canvas in imaginary space. This will make it look like the baseball is getting tossed off the canvas.  
             ![06-050](./images/06-050.jpg)  
-            **figure 06-050** "If do" code block checks of "baseballx" is greater than 850.
+            **figure 06-050** "If do" code block checks if "baseballx" is greater than 850.
             1. Next we need to add the code to the "do" section of the "if do" code block. Remember this code gets run only when the expression tested by "if" is true.
                 1. Drag a new "set variable" code block from the Variables tray and connect it to the inside of the "if do" logic code block. Change "item" to "baseballx".
                 1. Drag a new "number" code block from the Variables tray and connect it to the right of the "set baseballx to" code block. Change the number from 0 to 200, which is the starting position of the baseball toss on the x axis.  
