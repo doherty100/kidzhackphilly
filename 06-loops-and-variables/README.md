@@ -51,7 +51,7 @@ In this hands on exercise, we'll make improvements to the *baseball toss* progra
     1. Drag a new "Draw: stamp" code block from the "Draw" tray and attach it to the previous code block. Change the stamp to "Alien".  
     ![06-010](./images/06-010.jpg)  
     **figure 06-010** Add an alien stamp
-1. Next we need to set the drawing position for a new baseball sticker. We’ll do this by creating a variable to set the initial drawing position on the x axis.
+1. Next we need to set the drawing position for a new baseball sticker. We’ll do this by creating a [variable](https://www.cs.utah.edu/~germain/PPS/Topics/variables.html) to set the initial drawing position on the x axis.
     1. Find the "set variable" code block on the Variables tray.  
     ![00-050-040](../images/00-050-040.variables.setvariable.jpg)  
     **figure 00-050-040** "Set variable" code block in the Variables tray
