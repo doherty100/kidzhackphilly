@@ -11,6 +11,8 @@ Coaches, see [03-ram-and-loops.pptx](./03-ram-and-loops.pptx) for presentation m
 
 ## Review
 
+In the previous lesson we learned about hardware called [central processing units](https://en.wikipedia.org/wiki/Central_processing_unit) or "CPUs" for short, and we learned about software [programs](https://en.wikipedia.org/wiki/Computer_program). In the hands on exercise, we completed a challenge using code blocks to draw a crocodile on the screen, then we created our own program by making changes to the challenge.
+
 ## Challenges
 
 It's time to complete a challenge. Keep the challenge open after you complete it.
