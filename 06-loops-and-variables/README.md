@@ -92,7 +92,7 @@ In this hands on exercise, we'll make improvements to the *baseball toss* progra
     1. Find the "get variable" code block in the Variables tray.  
     ![00-050-050](../images/00-050-050.variables.getvariable.jpg)  
     **figure 00-050-050** "get variable" code block from the Variables tray.
-    1. Drag a new "get variable" code block from the Variables tray and connect it to the x coordinate of the "move to" code block. Change the variable from "item" to "baseballx". This means that our baseball will move on the x axis.
+    1. Drag a new "get variable" code block from the Variables tray and connect it to the x coordinate of the "move to" code block. Change the variable from "item" to "baseballx". This means that our baseball will move back and forth on the x axis.
     1. In order to get the baseball to move we need to change the value of "baseballx" inside the loop. Drag a new "set item to" code block from the Variables tray and connect it to the bottom of the "move to" code block. Change "item" to "baseballx".
     1. We need to use [arithmetic](https://en.wikipedia.org/wiki/Arithmetic) to change the value of "baseballx". Find the "arithmetic" code block in the Math tray.  
     ![00-040-020](../images/00-040-020.math.arithmetic.jpg)  
