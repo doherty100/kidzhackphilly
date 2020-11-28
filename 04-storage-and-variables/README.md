@@ -1,34 +1,36 @@
 # Lesson 04 - storage and variables
 
-In this lesson we'll be focusing on these concepts:
+In this lesson we'll focus on these concepts:
 
-* [Disk storage](https://en.wikipedia.org/wiki/Disk_storage) hardware
-* Using [variables](https://en.wikipedia.org/wiki/Variable_(computer_science)) in computer software
+* Hardware
+  * [Disk storage](https://en.wikipedia.org/wiki/Disk_storage)
+* Software
+  * [Variables](https://en.wikipedia.org/wiki/Variable_(computer_science))
 
-See [04-storage-and-variables.pptx](./04-storage-and-variables.pptx) for lesson presentation materials.
+Coaches, see [04-storage-and-variables.pptx](./04-storage-and-variables.pptx) for presentation materials.
 
 ## Review
 
 ## Challenges
 
-Before we start, we need to learn about variables by completing this challenge:
+It's time to complete your first challenge! Keep the challenge open after you complete it.
 
 * [Challenges > Variables > Variables 1: Dancing Bugs](https://code.kano.me/challenge/loops/FN004_variables_1)
 
 ## Hands on
 
-In this hands on exercise, we'll use a single variable to control the rotation speed of three different stickers, a centipede, a bee and a ladybug.
+In this hands on exercise, we'll make changes to the program from the challenge you just completed.
 
-1. Keep the last challenge open after you complete it.  
-    ![4-001](./images/4-001.jpg)  
-    **figure 4-001** Completed "Variables 1: Dancing Bugs" challenge
+1. Find the challenge you just completed.
+    ![04-010](./images/04-010.jpg)  
+    **figure 04-010** Completed "Variables 1: Dancing Bugs" challenge
 1. Now let's change the rotation speed of all three stickers by changing the value stored in a single variable.
     1. Find the "set speed to: 2" code block.
     1. Change the number from 2 to 15. The rotation rate changed for all three stickers, pretty cool!  
-        ![4-002](./images/4-002.jpg)  
-        **figure 4-002** Use a variable to change the rotation rate of three different stickers
+        ![04-020](./images/4-002.jpg)  
+        **figure 04-020** Use the speed variable to change the rotation rate of three different stickers
 1. Now share your creation. See [dancing-bugs-modified.kcode](./dancing-bugs-modified.kcode) for a complete version.
 
 ## What's next
 
-In the next lesson we'll learn how to write a computer graphics program. See you next time!
+In the next lesson we'll learn how to write a graphics program. See you next time!
