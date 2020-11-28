@@ -94,7 +94,7 @@ In this hands on exercise, we'll make more improvements to the *baseball toss* p
 1. Create a new variable named "lerppct" and set it to "0". We will use this later inside the loop when we're moving the baseball sticker using the "lerp from" code block.  
     ![07-070](./images/07-070.jpg)  
     **figure 07-070** New "lerpct" variable
-1. Find the "Every 1 milliseconds" loop you parked and attach it to the previous code block. Drag all the code blocks inside of it to the right and park them to the side.  
+1. Find the "Every 1 milliseconds" loop you parked and attach it to the previous code block. Important: Drag all the code blocks inside of it back off to the right and park them to the side so you can use them later.  
     ![07-080](./images/07-080.jpg)  
     **figure 07-080** Every 1 milliseconds loop with extra code parked to the side
 1. We need to add some code to reset the "lerppct" variable to 0 inside the loop. The "lerppct" variable is a percentage that will change from 0 to 100. When the baseball toss starts the "lerppct" will be 0, then halfway through the baseball toss the "lerppct" will be 50, then at the end of the baseball toss "lerppct" will be 100. If "lerpct" is greater than 100 we need to reset it back to 0 for a new baseball toss.
