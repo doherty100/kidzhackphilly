@@ -2,7 +2,7 @@
 
 In this lesson we'll be learning about these new concepts:
 
-* [Event-driven programming](https://en.wikipedia.org/wiki/Event-driven_programming)
+* [Events](https://en.wikipedia.org/wiki/Event-driven_programming)
 * [Linear interpolation](https://en.wikipedia.org/wiki/Linear_interpolation) more commonly known as *lerp*
 
 ## Review
@@ -14,7 +14,7 @@ In the previous lesson we continued working on the *baseball toss* program by ad
     * arithmetic  
         ![00-040-020](../images/00-040-020.math.arithmetic.jpg)  
         **figure 00-040-020** "Arithmetic" value code block form the Math tray
-* [Conditional computer programming](https://en.wikipedia.org/wiki/Conditional_(computer_programming))
+* [Conditions](https://en.wikipedia.org/wiki/Conditional_(computer_programming))
   * *Logic* code blocks
     * if do  
         ![00-030-010](../images/00-030-010.logic.ifdo.jpg)  
@@ -38,7 +38,7 @@ In the previous lesson we continued working on the *baseball toss* program by ad
     * set variable  
         ![00-050-040](../images/00-050-040.variables.setvariable.jpg)  
         **figure 00-050-040** "Set variable" method code block from the Variables tray
-* [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
+* [Objects](https://en.wikipedia.org/wiki/Object-oriented_programming)
   * *Part* code blocks
     * Sticker  
       ![00-500-100](../images/00-500-100.parts.sticker.jpg)  
@@ -46,7 +46,7 @@ In the previous lesson we continued working on the *baseball toss* program by ad
       * move to  
         ![00-500-170](../images/00-500-170.parts.sticker.moveto.jpg)  
         **figure 00-500-170** "Move to" method on "Sticker" part
-* [computer animation](https://en.wikipedia.org/wiki/Computer_animation)
+* [Animation](https://en.wikipedia.org/wiki/Computer_animation)
 
 ## Challenges
 
@@ -132,7 +132,7 @@ In this hands on exercise, we'll make more improvements to the *baseball toss* p
     1. Change "item" to "lerppct". This code block will now add 1 to the current value of the "lerppct" variable each time the loop executes and store the result back into the "lerppct" variable.  
     ![07-130](./images/07-130.jpg)  
     **figure 07-130** Increment the value of the "lerppct" variable by one
-1. Now comes the really cool part. Let's add a new "Mouse" part to our code, then use [Event-driven programming](https://en.wikipedia.org/wiki/Event-driven_programming) to control where the alien throws the baseball on the canvas.
+1. Now comes the really cool part. Let's add a new "Mouse" part to our code, then use [events](https://en.wikipedia.org/wiki/Event-driven_programming) to control where the alien throws the baseball on the canvas.
     1. Add a new "Mouse" part.
     1. Drag a new "Mouse: on click" event from the "Mouse" tray onto the code space and drop it to the right of the "When app starts" code block. Events are separate pieces of code that run only when the associated event fires, which in this case is when the mouse button is clicked. Click in the canvas a few times, do you see the lightning bolt on the "Mouse: on click" event light up? That means the event is firing, but since there is no code inside the "Mouse: on click" event nothing happens.
     1. Every time the mouse gets clicked we want the alien to start a new baseball toss. To do this we need to reset the values of the "baseballnowx" and "baseballnowy" variables back to where the baseball toss starts, which is where the alien is drawn.

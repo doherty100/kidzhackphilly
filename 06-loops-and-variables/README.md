@@ -3,19 +3,19 @@
 In this lesson we'll be focusing on these concepts:
 
 * [Arithmetic](https://en.wikipedia.org/wiki/Arithmetic)
-* [Conditional programming](https://en.wikipedia.org/wiki/Conditional_(computer_programming))
+* [Conditions](https://en.wikipedia.org/wiki/Conditional_(computer_programming))
 * [Loops](https://www.cs.utah.edu/~germain/PPS/Topics/loops.html)
 * [Variables](https://www.cs.utah.edu/~germain/PPS/Topics/variables.html)
-* [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
-* [Computer animation](https://en.wikipedia.org/wiki/Computer_animation)
+* [Objects](https://en.wikipedia.org/wiki/Object-oriented_programming)
+* [Animation](https://en.wikipedia.org/wiki/Computer_animation)
 
 ## Review
 
 In the previous lesson we created our *baseball toss* sample and drew a picture of a field on a sunny day. To do this we needed to learn some new programming concepts.
 
-* [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
+* [Programming](https://en.wikipedia.org/wiki/Computer_programming)
   * [Kano Code](https://www.microsoft.com/store/productId/9P4Q1393C2DZ) app
-* [Computer graphics](https://en.wikipedia.org/wiki/Computer_graphics)
+* [Graphics](https://en.wikipedia.org/wiki/Computer_graphics)
   * *Draw* code blocks
     * set background color  
     ![00-080-010](../images/00-080-010.draw.setbackgroundcolor.jpg)  
@@ -62,7 +62,7 @@ In this hands on exercise, we'll make improvements to the *baseball toss* progra
     1. Drag a new "number" code block from the "Variables" tray and connect it to the right of the previous block. Change the number from 0 to 200. That means the baseball toss will begin to the right of the alien which is at position 100.  
     ![06-020](./images/06-020.jpg)  
     **figure 06-020** Add a variable named "baseballx" and set it to 200.
-1. Now let's use [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) to add a baseball using a new Sticker part.
+1. Now let's use [objects](https://en.wikipedia.org/wiki/Object-oriented_programming) to add a baseball using a new Sticker part.
     1. Find the "Add parts" section in the lower right underneath the canvas.  
     ![00-500-000](../images/00-500-000.parts.addparts.jpg)  
     **figure 00-500-000** Add parts
@@ -102,7 +102,7 @@ In this hands on exercise, we'll make improvements to the *baseball toss* progra
     1. Change the number in the second slot of the new "math arithmetic" object from 0 to 1. The baseball is now moving but we only got one toss. This is because the baseball keeps going after it moves off the right side of the canvas.  
     ![06-040](./images/06-040.jpg)  
     **figure 06-040** Loop code which moves the baseball
-    1. We need to use [conditional programming](https://en.wikipedia.org/wiki/Conditional_(computer_programming)) to reset "baseballx" when the x coordinate is off the right side of the canvas.
+    1. We need to use [conditions](https://en.wikipedia.org/wiki/Conditional_(computer_programming)) to reset "baseballx" when the x coordinate is off the right side of the canvas.
         1. Find the "if do" code block in the Logic tray.  
         ![00-030-010](../images/00-030-010.logic.ifdo.jpg)  
         **figure 00-030-010** "If do" code block from the Logic tray.
