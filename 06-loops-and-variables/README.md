@@ -98,7 +98,7 @@ In this hands on exercise, we'll make improvements to the *baseball toss* progra
     ![00-040-020](../images/00-040-020.math.arithmetic.jpg)  
     **figure 00-040-020** "Arithmetic" code block in the Math tray
     1. Drag a new "math arithmetic" code bock from the Math tray and connect it to the right of the "set baseballx to" code block.
-    1. Drag a new "variable get" code block from the Variable tray and drop it into the first slot of the new "arithmetic" code block. Change "item" to "baseballx".
+    1. Drag a new "get variable" code block from the Variable tray and drop it into the first slot of the new "arithmetic" code block. Change "item" to "baseballx".
     1. Change the number in the second slot of the new "math arithmetic" object from 0 to 1. The baseball is now moving but we only got one toss. This is because the baseball keeps going after it moves off the right side of the canvas.  
     ![06-040](./images/06-040.jpg)  
     **figure 06-040** Loop code which moves the baseball
