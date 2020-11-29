@@ -7,7 +7,7 @@ In this lesson we'll focus on these concepts:
 * Software
   * [Variables](https://en.wikipedia.org/wiki/Variable_(computer_science))
 
-Coaches, see [04-storage-and-variables.pptx](./04-storage-and-variables.pptx) for presentation materials.
+Coaches, see [04-storage-and-variables.pptx](./04-storage-and-variables.pptx) for presentation materials. See the notes on the last slide for a link to the quiz template.
 
 ## Review
 
@@ -32,6 +32,10 @@ In this hands on exercise, we'll make changes to the challenge you just complete
         ![04-020](./images/04-020.jpg)  
         **figure 04-020** Use the speed variable to change the rotation rate of three different stickers
 1. Now share your creation. See [dancing-bugs-modified.kcode](./dancing-bugs-modified.kcode) for a complete version.
+
+## Quiz
+
+It's time for our first quiz! Ask your coach for the link.
 
 ## What's next
 
