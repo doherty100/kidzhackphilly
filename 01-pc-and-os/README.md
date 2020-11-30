@@ -51,6 +51,7 @@ In this hands on exercise, we'll assemble a new [PC](https://en.wikipedia.org/wi
         1. Choose whether to enable a digital assistant.
         1. Review and accept privacy settings.
         1. Wait for setup to complete.
+        1. Activate Windows by navigating to *Start* > *Settings* > *Updates and Security* > *Activation*.
 1. Next, lets launch an [App](https://en.wikipedia.org/wiki/Application_software) called *Kano Code* which is free. We will use the *Kano Code* web app, but rich client versions are also available in the Microsoft, Google and Apple stores.
     1. Locate the *Microsoft Edge* shortcut on the taskbar and click on it.
     1. Open a new tab in the Edge browser by clicking on *+*.
@@ -77,6 +78,8 @@ In this hands on exercise, we'll assemble a new [PC](https://en.wikipedia.org/wi
     1. Wait for a welcome email from *Kano Club* sent to the parent or guardian's email address.
     1. Follow the instructions in the email to link the *Kano Club* subscription to the kid's *Kano World* account created in the previous section.
     1. Wait for a confirmation email indicating that the subscription was successfully linked to the kid's *Kano World* account.
+1. Here's some things you can do later to keep your PC secure.
+    1. Regularly install updates by navigating to *Start* > *Settings* > *Update & Security* > *Check for Updates*. There are usually a lot of updates to be installed when you first set up your PC.
 
 ## What's next
 
