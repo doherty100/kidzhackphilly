@@ -11,7 +11,7 @@ Coaches, see [02-cpu-and-programs.pptx](./02-cpu-and-programs.pptx) for presenta
 
 ## Review
 
-In previous lesson, we assembled a new [PC](https://en.wikipedia.org/wiki/Personal_computer) from components, then booted it and configured the [OS](https://en.wikipedia.org/wiki/Operating_system). We wrapped up by launching an [App](https://en.wikipedia.org/wiki/Application_software) and activating a [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) subscription.
+In the previous lesson, we assembled a new [PC](https://en.wikipedia.org/wiki/Personal_computer) from components, then booted it and configured the [OS](https://en.wikipedia.org/wiki/Operating_system). We wrapped up by launching an [App](https://en.wikipedia.org/wiki/Application_software) and activating a [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) subscription.
 
 ## Challenges
 
