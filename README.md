@@ -29,6 +29,7 @@ This repo contains resources and best practices for teaching digital fundamental
 
 ## Lessons
 
+* [01-pc-and-os](./01-pc-and-os/)
 * [02-cpu-and-programs](./02-cpu-and-programs/)
 * [03-ram-and-loops](./03-ram-and-loops/)
 * [04-storage-and-variables](./04-storage-and-variables/)
