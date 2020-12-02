@@ -35,11 +35,12 @@ In the previous lesson we created our *baseball toss* sample and drew a picture 
 
 ## Challenges
 
-Before we start coding, we need to learn about *Loops* and *Variables* by completing these challenges:
+Before we start coding, we need to learn about *Loops*, *Variables* and *Logic* by completing these challenges:
 
 * [Challenges > Loops > Working with Loops](https://code.kano.me/challenge/CLUB02/CLUB02_00_random)
 * [Challenges > Variables > What are Variables?](https://code.kano.me/challenge/CLUB03/CLUB03_00_catandmouse)
 * [Challenges > Variables > Animating with Variables](https://code.kano.me/challenge/CLUB03/CLUB03_01_balloon)
+* [Challenges > Logic > If Statements](https://code.kano.me/challenge/CLUB05/CLUB05_01_ufo)
 
 ## Hands on
 
@@ -103,13 +104,13 @@ In this hands on exercise, we'll make improvements to the *baseball toss* progra
     ![06-040](./images/06-040.jpg)  
     **figure 06-040** Loop code which moves the baseball
     1. We need to use [conditions](https://en.wikipedia.org/wiki/Conditional_(computer_programming)) to reset "baseballx" when the x coordinate is off the right side of the canvas.
-        1. Find the "if do" code block in the Logic tray.  
+        1. Find the "if do" code block in the *Logic* tray.  
         ![00-030-010](../images/00-030-010.logic.ifdo.jpg)  
         **figure 00-030-010** "If do" code block from the Logic tray.
         1. Drag a new "if do" code block from the "Logic" tray and connect it to the previous code block. This code block tests a condition, and if it's true it runs the code in the "do" section.
-            1. Find the "compare" code block in the Logic tray.  
+            1. Find the "compare" code block in the *Logic* tray.  
             ![00-030-030](../images/00-030-030.logic.compare.jpg)  
-            **figure 00-030-030** "Compare" code block in Logic tray
+            **figure 00-030-030** "Compare" code block in *Logic* tray
             1. Drag a new "get variable" code block from the Variables tray and drop it into the first slot of the new "compare" code block. Change "item" to "baseballx".
             1. Drag a new "number" code block from the Variables tray and drop it into the second slot of the new "compare" code block. Change the number 0 to 850. Remember, the x axis of the canvas only goes from 0 to 800, so 850 is off the right side of the canvas in imaginary space. This will make it look like the baseball is getting tossed off the canvas.  
             ![06-050](./images/06-050.jpg)  

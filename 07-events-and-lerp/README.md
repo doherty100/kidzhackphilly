@@ -133,8 +133,13 @@ In this hands on exercise, we'll make more improvements to the *baseball toss* p
     ![07-130](./images/07-130.jpg)  
     **figure 07-130** Increment the value of the "lerppct" variable by one
 1. Now comes the really cool part. Let's add a new "Mouse" part to our code, then use [events](https://en.wikipedia.org/wiki/Event-driven_programming) to control where the alien throws the baseball on the canvas.
-    1. Add a new "Mouse" part.
-    1. Drag a new "Mouse: on click" event from the "Mouse" tray onto the code space and drop it to the right of the "When app starts" code block. Events are separate pieces of code that run only when the associated event fires, which in this case is when the mouse button is clicked. Click in the canvas a few times, do you see the lightning bolt on the "Mouse: on click" event light up? That means the event is firing, but since there is no code inside the "Mouse: on click" event nothing happens.
+    1. Add a new *Mouse* part.  
+    ![00-500-200](../images/00-500-200.parts.mouse.jpg)  
+    **figure 00-500-200** *Mouse* part
+    1. Find the *on click* event code block in the *Mouse* tray.  
+    ![00-500-280](../images/00-500-280.parts.mouse.onclick.jpg)  
+    **figure 00-500-280** *on click* event code block from the *Mouse* tray
+    1. Drag a new *on click* event from the *Mouse* tray onto the code space and drop it to the right of the *when app starts* code block. Events are separate pieces of code that run only when the associated event fires, which in this case is when the mouse button is clicked. Click in the canvas a few times, do you see the lightning bolt on the "Mouse: on click" event light up? That means the event is firing, but since there is no code inside the "Mouse: on click" event nothing happens.
     1. Every time the mouse gets clicked we want the alien to start a new baseball toss. To do this we need to reset the values of the "baseballnowx" and "baseballnowy" variables back to where the baseball toss starts, which is where the alien is drawn.
         1. Drag a new "set item to" code block from the Variables tray attach it to the inside of the "Mouse: on click" event. Change "item" to "baseballnowx".
         1. Drag a new "item" code block from the Variables tray and attach it to the end of the "set item to" block you just added. Change "item" to "alienx"
