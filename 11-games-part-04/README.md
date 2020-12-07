@@ -19,7 +19,7 @@ Let's add some code that allows the player to throw the ball at different speeds
         MM | Minute | 0 - 59 | There are 60 minutes in an hour.
         SS | Seconds | 0 - 59 | There are 60 seconds in a minute.
         000 | Milliseconds | 0 - 999 | There are 1,000,000 milliseconds in a second, but those are a lot of digits, so digital clocks convert milliseconds into thousandths of a second to make the time more readable.  
-    1. **Timestamp example:** We can get all of these time part values using the a using a *Clock* part in *Kano Code*, but then we will need to combine them into a single number to make our *timestamp*. Since the digital clock converts milliseconds into thousandths of a second, we will need to convert everything to seconds then add them together to get our timestamp number.  Let's say the player clicks the mouse at exactly `12:02:10.730`, here's how to calculate the *timestamp* number:  
+    1. **Timestamp example:** We can get all of these time part values using a *Clock* part in *Kano Code*, but then we will need to combine them into a single number to make our *timestamp*. Since the digital clock converts milliseconds into thousandths of a second, we will need to convert everything to seconds then add them together to get our timestamp number.  Let's say the player clicks the mouse at exactly `12:02:10.730`, the *timestamp* number would be `43,330.730` which is the number of seconds past midnight when the user clicked the mouse. Here's how to calculate the *timestamp* number:  
         Time Part | Value | Convert to Seconds           |     | Value in Seconds
         :-:       | :-:   | :-:                          | --: | --:
         HH        | 12    | 12 x 60 minutes x 60 seconds |     | 43,200.000
@@ -29,10 +29,10 @@ Let's add some code that allows the player to throw the ball at different speeds
         Timestamp |       |                              | =   | 43,330.730  
     1. **Calculating duration using timestamps:** Now that we have a way of recording a specific moment in time using a timestamp, we have a way to measure the length of time between two events. Here's the math for calculating how many seconds the player held down the mouse button:
     `durationSeconds = mouseReleaseTimestamp - mouseClickTimestamp`
-    1. **Timestamp midnight bug:** This code will work great except for one thing, can you guess? What happens at midnight when the time rolls over from `23:59:59.999` to `00:00:00.000`into the next day? It is very unlikely that this will happen, the player would have to click the mouse just before midnight and release the mouse just after midnight, and most players should be in bed by then. If we didn't handle this in our code it would be a *bug*. Since this will probably never happen, we will fix this bug by restarting our program if this happens so our game doesn't do anything strange. Don't tell anybody we cheated!  
+    1. **Timestamp midnight bug:** This code will work great except for one thing, can you guess? What happens at midnight when the time rolls over from `23:59:59.999` to `00:00:00.000`into the next day? It is very unlikely that this will happen, the player would have to click the mouse just before midnight and release the mouse just after midnight, and most players should be in bed by then. If we didn't handle this in our code it would be a [software bug](https://en.wikipedia.org/wiki/Software_bug). Since this will probably never happen, we will avoid this bug by restarting our program if this happens so our game doesn't do anything weird. Don't tell anybody we cheated!  
     `if (mouseReleaseTimestamp < mouseClickTimestamp) then restart program`  
-1. Okay now that we have a plan let's write the code. Drag a new *when app starts* event code block from the *App* tray into the code space. We keep adding new ones so we can keep the code for each section separate. This makes it easier to *debug* our program.
-1. Create and initialize 7 new variables inside the previous code block:  
+1. Okay now that we have a plan let's write the code. Drag a new *when app starts* event code block from the *App* tray into the code space. We keep adding new ones so we can keep the code for each section separate. This makes it easier to [debug](https://en.wikipedia.org/wiki/Debugging) our program.
+1. Create and initialize 8 new variables inside the previous code block:  
     Variable | Initial Value
     --- | ---
     hourNow | 0
@@ -48,12 +48,12 @@ Let's add some code that allows the player to throw the ball at different speeds
     **figure 11-010** Completed *when app starts* code block
 1. Next let's add the code to calculate "mouseClickTimestamp".
     1. Drag a new *on click* event code block from the *Mouse* tray and place it near the other mouse events on your code space.
-    1. Locate the *Clock* part in *Add Parts*.
-        ![00-500-400](../images/00-500-400.parts.clock.jpg)
-        **figure 00-500-400** *Clock* part from *Add Parts*
     1. Attach a new *set variable* code block inside the new *mouse: on click* event code block and use it to reset "timestampNow" to 0.
     1. Attach a new *set variable* code block to the previous code block and change the variable from "item" to "hourNow".
     1. Attach a new *arithmetic* code bock from the *Math* tray and attach it to the right of the previous code block. Change the arithmetic operator from "add" to "multiply".
+    1. Locate the *Clock* part in *Add Parts*.
+        ![00-500-400](../images/00-500-400.parts.clock.jpg)
+        **figure 00-500-400** *Clock* part from *Add Parts*
     1. Add a new *Clock* part from *Add Parts*.
     1. Locate the *Clock current: Year* code block in the *Clock* tray.  
         ![00-500-410](../images/00-500-410.parts.clock.currentyear.jpg)  
@@ -61,8 +61,8 @@ Let's add some code that allows the player to throw the ball at different speeds
     1. Drag a new *Clock current: Year* code part from the *Clock* tray and connect it into the first slot of the arithmetic code block. Change "Year" to "Hour".
     1. Drag a new *arithmetic* code block from the *Math* tray and connect it to the second slot of the previous code block. Change the first number to 60, change the arithmetic operator from "add" to "to the power of". Change the second number to 2.
     1. This converts the current hour into seconds, and uses *exponentiation* to simplify the formula. Instead of having to code `currentHour x 60 x 60` we just used the formula `currentHour x 60^2`. Verify your code looks like this:  
-        ![11-020](./images/08-090.jpg)  
-        **figure 08-090** Completed hours to seconds calculation
+        ![11-020](./images/11-020.jpg)  
+        **figure 11-020** Completed hours to seconds calculation
     1. Attach a new *set variable* code block to the previous code block and change th3e variable from "item" to "minuteNow".
     1. Drag a new *arithmetic* code bock from the *Math* tray and connect it to the right of the previous code block. Change the arithmetic operator from "add" to "multiply".
     1. Drag a new *Clock current: Year* code block from the *Clock* tray and connect it to the first slot of the previous code block. Change "Year" to "Minute".
