@@ -69,9 +69,9 @@ Let's add some code that allows the player to throw the ball at different speeds
     1. Change the number in the second slot of the *arithmetic* code block from 0 to 60. Verify your code looks like this:  
         ![11-030](./images/11-030.jpg)  
         **figure 11-030** Completed minutes to seconds calculation
-    1. Attach a new *set variable* code block to the previous code block and change th3e variable from "item" to "secondsNow".
+    1. Attach a new *set variable* code block to the previous code block and change the variable from "item" to "secondsNow".
     1. Drag a new *Clock current: Year* code block from the *Clock* tray and connect it to the right of the previous code block. Change "Year" to "Seconds".
-    1. Attach a new *set variable* code block to the previous code block and change th3e variable from "item" to "millisecondsNow".
+    1. Attach a new *set variable* code block to the previous code block and change the variable from "item" to "millisecondsNow".
     1. Drag a new *arithmetic* code bock from the *Math* tray and connect it to the right of the previous code block. Change the arithmetic operator from "add" to "divide".
     1. Drag a new *Clock current: Year* code block from the *Clock* tray and connect it to the first slot of the previous code block. Change "Year" to "Milliseconds".
     1. Change the number in the second slot of the *arithmetic* code block from 0 to 1000. Verify your code looks like this:  
@@ -80,13 +80,13 @@ Let's add some code that allows the player to throw the ball at different speeds
     1. Now it's time to add everything up and store the total in "timeStampNow". Use the *increment variable* code block from the *Math* tray to add "hourNow", "minuteHow", "secondsNow" and "millisecondsNow" to "timestampNow". Your completed code should look like this:  
         ![11-050](./images/11-050.jpg)  
         **figure 11-050** Completed code to add up timestampNow
-    1. Attach a new *set variable* code block to the previous code block and change th3e variable from "item" to "mouseClickTimestamp". Set the value to "timestampNow". Your completed code should look like this:  
+    1. Attach a new *set variable* code block to the previous code block and change the variable from "item" to "mouseClickTimestamp". Set the value to "timestampNow". Your completed code should look like this:  
         ![11-060](./images/11-060.jpg)
         **figure 11-060** Completed code to calculate "mouseClickTimestamp"
-    1. But wait, we are only half done, we have to do all of the same calculations for "mouseReleaseTimestamp" right? Because of the way we have written the code, we can re-use most of the code we just wrote for this. Good programmers write *re-usable code*.
+    1. But wait, we are only half done, we have to do all of the same calculations for "mouseReleaseTimestamp" right? Wouldn't it be great if we could just use some code we already have written? This is called [code reuse](https://en.wikipedia.org/wiki/Code_reuse). Because of the way we have written the *timestamp* code, we can re-use it over and over again whenever we create a new *timestamp*.
         1. Using the *Kano Code* "Duplicate" feature, make a copy of all the code blocks you wrote in the previous section and attach them to the last code block in the *Mouse: on release* code block.
         1. Change the last *set variable* code block you copied from "mouseClickTimestamp" to "mouseReleaseTimestamp". Your completed code should look like this:  
-        ![11-070](./images/11-070.jpg)
+        ![11-070](./images/11-070.jpg)  
         **figure 11-070** Completed *Mouse: on release* code block
     1. Now let's add the final calculation which will record how many seconds the player held the mouse button down. Let's also take care of the *timestamp midnight bug* we talked about earlier.
         1. Drag a new *if do else* code block from the *Logic* tray and connect it to the last code bock in the *Mouse: on release* event code block.
@@ -102,7 +102,7 @@ Let's add some code that allows the player to throw the ball at different speeds
         **figure 11-080** Completed "clickDurationSeconds" calculation with bug handling code
 1. Now let's display the length of time in seconds that the player held down the mouse button.
     1. Add a new *Text* part from *Add Parts*. Since you already have a text part this one will be called "Text 2".
-    1. Find the *when app starts* event code block you added for this section.
+    1. Find the *when app starts* event code block you added in this lesson.
     1. Drag a new *move to* code block from the *Text 2* tray and attach it to the last code bock in the *when app starts* code block. Set the x value to 400 and the y value to 550. Your completed code should look like this:  
     ![11-090](./images/11-090.jpg)  
     **figure 11-090** Completed *when app starts* event code block
