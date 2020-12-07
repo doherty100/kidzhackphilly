@@ -6,6 +6,8 @@ In this lesson we'll be focusing on these concepts:
 * [Events](https://en.wikipedia.org/wiki/Event-driven_programming)
 * [Graphics](https://en.wikipedia.org/wiki/Computer_graphics)
 
+Coaches, see [05-drawing-with-coordinates.pptx](./05-drawing-with-coordinates.pptx) for presentation materials.
+
 ## Review
 
 In the previous lesson we learned about [disk storage](https://en.wikipedia.org/wiki/Disk_storage) hardware, and we learned about using [variables](https://en.wikipedia.org/wiki/Variable_(computer_science)) in software programs. In the hands on exercise, we completed a challenge that used a variable to control the rotation speed of three different stickers.
