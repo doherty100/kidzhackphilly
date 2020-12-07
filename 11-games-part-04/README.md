@@ -60,10 +60,10 @@ Let's add some code that allows the player to throw the ball at different speeds
         **figure 00-500-410** *Clock current: Year* code block in the *Clock* tray.
     1. Drag a new *Clock current: Year* code part from the *Clock* tray and connect it into the first slot of the arithmetic code block. Change "Year" to "Hour".
     1. Drag a new *arithmetic* code block from the *Math* tray and connect it to the second slot of the previous code block. Change the first number to 60, change the arithmetic operator from "add" to "to the power of". Change the second number to 2.
-    1. This converts the current hour into seconds, and uses *exponentiation* to simplify the formula. Instead of having to code `currentHour x 60 x 60` we just used the formula `currentHour x 60^2`. Verify your code looks like this:  
+    1. This converts the current hour into seconds, and uses [exponentiation](https://en.wikipedia.org/wiki/Exponentiation) to simplify the formula. Instead of having to code `currentHour x 60 x 60` we just used the formula `currentHour x 60^2`. Verify your code looks like this:  
         ![11-020](./images/11-020.jpg)  
         **figure 11-020** Completed hours to seconds calculation
-    1. Attach a new *set variable* code block to the previous code block and change th3e variable from "item" to "minuteNow".
+    1. Attach a new *set variable* code block to the previous code block and change the variable from "item" to "minuteNow".
     1. Drag a new *arithmetic* code bock from the *Math* tray and connect it to the right of the previous code block. Change the arithmetic operator from "add" to "multiply".
     1. Drag a new *Clock current: Year* code block from the *Clock* tray and connect it to the first slot of the previous code block. Change "Year" to "Minute".
     1. Change the number in the second slot of the *arithmetic* code block from 0 to 60. Verify your code looks like this:  
@@ -75,14 +75,14 @@ Let's add some code that allows the player to throw the ball at different speeds
     1. Drag a new *arithmetic* code bock from the *Math* tray and connect it to the right of the previous code block. Change the arithmetic operator from "add" to "divide".
     1. Drag a new *Clock current: Year* code block from the *Clock* tray and connect it to the first slot of the previous code block. Change "Year" to "Milliseconds".
     1. Change the number in the second slot of the *arithmetic* code block from 0 to 1000. Verify your code looks like this:  
-        ![11-040](./images/08-110.jpg)  
-        **figure 08-110** Completed milliseconds to seconds calculation
+        ![11-040](./images/11-040.jpg)  
+        **figure 11-040** Completed milliseconds to seconds calculation
     1. Now it's time to add everything up and store the total in "timeStampNow". Use the *increment variable* code block from the *Math* tray to add "hourNow", "minuteHow", "secondsNow" and "millisecondsNow" to "timestampNow". Your completed code should look like this:  
-        ![11-050](./images/08-120.jpg)  
-        **figure 08-120** Completed code to add up timestampNow
+        ![11-050](./images/11-050.jpg)  
+        **figure 11-050** Completed code to add up timestampNow
     1. Attach a new *set variable* code block to the previous code block and change th3e variable from "item" to "mouseClickTimestamp". Set the value to "timestampNow". Your completed code should look like this:  
-        ![11-060](./images/08-130.jpg)
-        **figure 08-130** Completed code to calculate "mouseClickTimestamp"
+        ![11-060](./images/11-060.jpg)
+        **figure 11-060** Completed code to calculate "mouseClickTimestamp"
     1. But wait, we are only half done, we have to do all of the same calculations for "mouseReleaseTimestamp" right? Because of the way we have written the code, we can re-use most of the code we just wrote for this. Good programmers write *re-usable code*.
         1. Using the *Kano Code* "Duplicate" feature, make a copy of all the code blocks you wrote in the previous section and attach them to the last code block in the *Mouse: on release* code block.
         1. Change the last *set variable* code block you copied from "mouseClickTimestamp" to "mouseReleaseTimestamp". Your completed code should look like this:  
@@ -104,8 +104,8 @@ Let's add some code that allows the player to throw the ball at different speeds
     1. Add a new *Text* part from *Add Parts*. Since you already have a text part this one will be called "Text 2".
     1. Find the *when app starts* event code block you added for this section.
     1. Drag a new *move to* code block from the *Text 2* tray and attach it to the last code bock in the *when app starts* code block. Set the x value to 400 and the y value to 550. Your completed code should look like this:  
-    ![11-090](./images/08-160.jpg)  
-    **figure 08-160** Completed *when app starts* event code block
+    ![11-090](./images/11-090.jpg)  
+    **figure 11-090** Completed *when app starts* event code block
     1. Find the *every 1 frames* code block used to redraw shapes on the canvas.
     1. Drag a new *value* code block from the *Text 2* tray and attach it to the last code block in the *every 1 frames* loop. Set the value to "clickDurationSeconds". Your completed code should look like this:  
     ![11-100](./images/11-100.jpg)  
