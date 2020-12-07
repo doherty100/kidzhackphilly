@@ -36,6 +36,11 @@ This repo contains resources and best practices for teaching digital fundamental
 * [05-drawing-with-coordinates](./05-drawing-with-coordinates/)
 * [06-loops-and-variables](./06-loops-and-variables/)
 * [07-events-and-lerp](./07-events-and-lerp/)
+* [08-games-part-01](./08-games-part-01/)
+* [09-games-part-02](./09-games-part-02/)
+* [10-games-part-03](./10-games-part-03/)
+* [11-games-part-04](./11-games-part-04/)
+
 
 ## Kano World fine print
 
