@@ -111,14 +111,14 @@ Let's start adding some code that allows the player to throw the ball at differe
         ![00-040-120](../images/00-040-120.math.constrain.jpg)  
         **figure 00-040-120** *constrain* code block in the *Math* tray
         1. Drag a new *constrain* code block from the *Math* tray and connect it to the right of the previous code block. Set the value in the first slot to "forcePct", set the "low" value to 0.1 and set the "high" value to 1. This will make sure the "forcePct" is never less than 10% and never greater than 100%.
-1. Now let's display the length of time in seconds that the player held down the mouse button.
+1. Now let's display the force percentage on the canvas.
     1. Add a new *Text* part from *Add Parts*. Since you already have a text part this one will be called "Text 2".
     1. Find the *when app starts* event code block you added in this lesson.
     1. Drag a new *move to* code block from the *Text 2* tray and attach it to the last code bock in the *when app starts* code block. Set the x value to 400 and the y value to 550. Your completed code should look like this:  
     ![11-090](./images/11-090.jpg)  
     **figure 11-090** Completed *when app starts* event code block
     1. Find the *every 1 frames* code block used to redraw shapes on the canvas.
-    1. Drag a new *value* code block from the *Text 2* tray and attach it to the last code block in the *every 1 frames* loop. Set the value to "clickDurationSeconds". Your completed code should look like this:  
+    1. Drag a new *value* code block from the *Text 2* tray and attach it to the last code block in the *every 1 frames* loop. Set the value to "forcePct". Your completed code should look like this:  
     ![11-100](./images/11-100.jpg)  
     **figure 11-100** Completed *every 1 frames* loop code block
 1. **Test your program:** Restart your program, then click the mouse button on the canvas and hold it down for 3 seconds before you release it. The number on the bottom of the screen shows the force percentage. Try it a few times by restarting your program and holding the mouse button down for different lengths of time. Is it ever less than 0.1 (10%)? Is it ever greater than 1 (100%)?
