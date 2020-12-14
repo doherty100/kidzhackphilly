@@ -122,4 +122,4 @@ Let's start adding some code that allows the player to throw the ball at differe
     ![11-100](./images/11-100.jpg)  
     **figure 11-100** Completed *every 1 frames* loop code block
 1. **Test your program:** Restart your program, then click the mouse button on the canvas and hold it down for 3 seconds before you release it. The number on the bottom of the screen shows the force percentage. Try it a few times by restarting your program and holding the mouse button down for different lengths of time. Is it ever less than 0.1 (10%)? Is it ever greater than 1 (100%)?
-1. **Save your program:** Now would be a good time to take a break and come back later to continue working on the hands on exercise. Save your program by clicking on *Menu* > *Save*. See [baseball-toss-game-part-04.kcode](./baseball-toss-game-part-04.kcode) if you can't find your program later.
+1. **Save your program:** Now would be a good time to take a break and come back later to continue working on the hands on exercise. Save your program by clicking on *Menu* > *Save*. See [baseball-toss-game-part-04.kcode](./baseball-toss-game-part-04.kcode) for a completed version.
