@@ -107,7 +107,7 @@ Let's start adding some code that allows the player to throw the ball at differe
         1. Drag a new *set variable* code block from the *Variables* tray and attach it to the previous code block. Change the variable to "forcePct".
         1. Drag a new *arithmetic* code block from the *Math* tray and attach it to the right of the previous code block. Set the calculation to "clickDurationSeconds ÷ 3".
         1. Drag a new *set variable* code block from the *Variables* tray and attach it to the previous code block. Change the variable to "forcePct".
-        1. Find the *constrain* code block in the *Math* tray.
+        1. Find the *constrain* code block in the *Math* tray.  
         ![00-040-120](../images/00-040-120.math.constrain.jpg)  
         **figure 00-040-120** *constrain* code block in the *Math* tray
         1. Drag a new *constrain* code block from the *Math* tray and connect it to the right of the previous code block. Set the value in the first slot to "forcePct", set the "low" value to 0.1 and set the "high" value to 1. This will make sure the "forcePct" is never less than 10% and never greater than 100%.
