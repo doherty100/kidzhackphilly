@@ -34,7 +34,7 @@ Let's start adding some code that allows the player to throw the ball at differe
 `if (forcePct < 0.1) then (forcePct = 0.1)`  
 `if (forcePct > 1) then (forcePct = 1)`
 1. Okay now it's time to turn our pseudocode into real code. Drag a new *when app starts* event code block from the *App* tray into the code space. We keep adding new ones so we can keep the code for each section separate. This makes it easier to [debug](https://en.wikipedia.org/wiki/Debugging) our program.
-1. Create and initialize 8 new variables inside the previous code block:  
+1. Create and initialize 9 new variables inside the previous code block:  
     Variable | Initial Value
     --- | ---
     hourNow | 0
@@ -53,7 +53,7 @@ Let's start adding some code that allows the player to throw the ball at differe
     1. Drag a new *on click* event code block from the *Mouse* tray and place it near the other mouse events on your code space.
     1. Attach a new *set variable* code block inside the new *mouse: on click* event code block and use it to reset "timestampNow" to 0.
     1. Attach a new *set variable* code block to the previous code block and change the variable from "item" to "hourNow".
-    1. Attach a new *arithmetic* code bock from the *Math* tray and attach it to the right of the previous code block. Change the arithmetic operator from "add" to "multiply".
+    1. Drag a new *arithmetic* code bock from the *Math* tray and attach it to the right of the previous code block. Change the arithmetic operator from "add" to "multiply".
     1. Locate the *Clock* part in *Add Parts*.
         ![00-500-400](../images/00-500-400.parts.clock.jpg)
         **figure 00-500-400** *Clock* part from *Add Parts*
