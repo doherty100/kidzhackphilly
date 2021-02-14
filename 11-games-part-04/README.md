@@ -96,8 +96,9 @@ Let's start adding some code that allows the player to throw the ball at differe
         1. Drag a new *compare* code block from the *Logic* tray and connect it to the right if the previous *if* code block. Set the first slot of the condition to "mouseReleaseTimestamp", set the condition to "greater than", and set the second slot of the condition to "mouseClickTimestamp".
         1. Drag a new *set variable* code block from the *Variables* tray and connect inside the *if* portion of the *if do else* code block. Set the variable to "clickDurationSeconds".
         1. Drag a new *arithmetic* code block from the *Math* tray and connect it to the right of the previous code block. Set the first slot to "mouseReleaseTimestamp", set the operator to "subtract", and set the second slot to "mouseClickTimestamp".
-        1. If the *else* portion of this statement runs, that means that "mouseClickTimestamp" is greater than "mouseReleaseTimestamp", which means that the player clicked the mouse button just before midnight, and released it just after midnight. We decided to handle this situation by restarting our program. 1. Find the *restart code* code block in the *Control* tray.  
-        ![00-020-050](./images/00-020-050.control.restartcode.jpg)  
+        1. If the *else* portion of this statement runs, that means that "mouseClickTimestamp" is greater than "mouseReleaseTimestamp", which means that the player clicked the mouse button just before midnight, and released it just after midnight. We decided to handle this situation by restarting our program.
+        1. Find the *restart code* code block in the *Control* tray.  
+        ![00-020-050](../images/00-020-050.control.restartcode.jpg)  
         **figure 00-020-050** *restart code* code block in the *Control* tray
         1. Drag a new *restart code* code block from the *Control* tray and connect it inside the *else* portion of the *if do else* code block.
         1. Verify your completed code looks like this:  
