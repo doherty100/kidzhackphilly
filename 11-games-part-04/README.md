@@ -101,8 +101,8 @@ Let's start adding some code that allows the player to throw the ball at differe
             ![00-020-050](../images/00-020-050.control.restartcode.jpg)  
             **figure 00-020-050** *restart code* code block in the *Control* tray
             1. Drag a new *restart code* code block from the *Control* tray and connect it inside the *else* portion of the *if do else* code block.
-            1. Verify your completed code looks like this:
-            ![11-080](./images/11-080.jpg)
+            1. Verify your completed code looks like this:  
+            ![11-080](./images/11-080.jpg)  
         **figure 11-080** Completed "clickDurationSeconds" calculation with bug handling code
     1. Now that we have calculated "clickDurationSeconds" we can use it to calculate our "forcePct".
         1. Drag a new *set variable* code block from the *Variables* tray and attach it to the previous code block. Change the variable to "forcePct".
@@ -112,8 +112,8 @@ Let's start adding some code that allows the player to throw the ball at differe
         ![00-040-120](../images/00-040-120.math.constrain.jpg)  
         **figure 00-040-120** *constrain* code block in the *Math* tray
         1. Drag a new *constrain* code block from the *Math* tray and connect it to the right of the previous code block. Set the value in the first slot to "forcePct", set the "low" value to 0.1 and set the "high" value to 1. This will make sure the "forcePct" is never less than 10% and never greater than 100%.
-        1. Verify your completed code block looks like this:
-        ![11-085](./images/11-085.jpg)
+        1. Verify your completed code block looks like this:  
+        ![11-085](./images/11-085.jpg)  
 1. Now let's display the force percentage on the canvas.
     1. Add a new *Text* part from *Add Parts*. Since you already have a text part this one will be called "Text 2".
     1. Find the *when app starts* event code block you added in this lesson.
