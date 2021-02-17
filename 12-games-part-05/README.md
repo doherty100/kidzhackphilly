@@ -56,4 +56,4 @@ Finally, we need to move the baseball back to it's original position when the th
     1. Verify your code looks like this:  
     ![12-040](./images/12-040.jpg)  
 1. **Test your program:** Test throwing the baseball at different speeds.
-1. **Save your program:** Save your program by clicking on *Menu* > *Save*. See [baseball-toss-game-part-04.kcode](./baseball-toss-game-part-04.kcode) for a completed version.
+1. **Save your program:** Save your program by clicking on *Menu* > *Save*. See [baseball-toss-game-part-05.kcode](./baseball-toss-game-part-05.kcode) for a completed version.
