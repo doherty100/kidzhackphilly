@@ -1,4 +1,4 @@
-# Lesson 10 - games part 4
+# Lesson 11 - games part 4
 
 In this lesson we'll continue building our *baseball toss* game by adding code that allows the player to control how hard to throw the baseball.
 

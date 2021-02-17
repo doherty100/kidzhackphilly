@@ -1,4 +1,4 @@
-# Lesson 10 - games part 5
+# Lesson 12 - games part 5
 
 In this lesson we'll continue building our *baseball toss* game by adding code that draws the baseball on the canvas when it is thrown at the target.
 
