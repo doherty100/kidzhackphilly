@@ -33,7 +33,7 @@ Let's start adding some code that allows the player to throw the ball at differe
 `forcePct = clickDurationSeconds ÷ 3`  
 `if (forcePct < 0.1) then (forcePct = 0.1)`  
 `if (forcePct > 1) then (forcePct = 1)`
-1. Okay now it's time to turn our pseudocode into real code. Drag a new *when app starts* event code block from the *App* tray into the code space. We keep adding new ones so we can keep the code for each section separate. This makes it easier to [debug](https://en.wikipedia.org/wiki/Debugging) our program.
+1. Okay now it's time to turn our pseudocode into real code. Go ahead and load the saved version of your code from the previous lesson. Drag a new *when app starts* event code block from the *App* tray into the code space. We keep adding new ones so we can keep the code for each section separate. This makes it easier to [debug](https://en.wikipedia.org/wiki/Debugging) our program.
 1. Create and initialize 9 new variables inside the previous code block:  
     Variable | Initial Value
     --- | ---

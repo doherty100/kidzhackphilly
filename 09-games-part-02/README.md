@@ -8,7 +8,7 @@ In the previous lesson, we started building our *baseball toss* game by adding c
 
 ## Hands on
 
-Let's add code to make the target move. This code will change the variables that control where the target gets drawn each frame. When the target reaches the top or bottom of the canvas it needs to change direction. Each time the target changes direction the speed should change to make the game more challenging.
+Let's add code to make the target move. This code will change the variables that control where the target gets drawn each frame. When the target reaches the top or bottom of the canvas it needs to change direction. Each time the target changes direction the speed should change to make the game more challenging. Go ahead and load the saved version of your code from the previous lesson.
 
 1. Drag a new *when app starts* event code block from the *App* tray onto the code space to help keep our code organized.
 1. Drag a new *set variable* code block from the *Variables* tray and connect it inside the previous code block. Create a new variable named "targetSpeedY" and initialize it to -5. This will make the target start moving up five pixels at a time when our program starts.

@@ -25,7 +25,7 @@ We also need to control how fast the baseball moves using the *forcePct* variabl
 * The fastest throw will happen when *forcePct* = 1, and will take 100 milliseconds to complete from start to finish.
 * The slowest throw will happen when *forcePct* = 0.1, and will take 1000 milliseconds to complete from start to finish.
 
-Finally, we need to move the baseball back to it's original position when the throw is complete. Okay let's get started!
+Finally, we need to move the baseball back to it's original position when the throw is complete. Go ahead and load the saved version of your code from the previous lesson. Okay let's get started!
 
 1. First we need to declare a new variable to track our *lerp* percentage, then create a loop that we can use to change the position of the baseball if a throw is in progress.
     1. Drag a new *when app starts* code block from the *App* tray onto the canvas.

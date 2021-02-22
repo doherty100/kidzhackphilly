@@ -8,7 +8,7 @@ In the previous lesson we continued building our *baseball toss* game by adding 
 
 ## Hands on
 
-Let's add some code to draw a cross hair to mark where the player wants to throw the baseball.
+Go ahead and load the saved version of your code from the previous lesson. Let's add some code to draw a cross hair to mark where the player wants to throw the baseball.
 
 1. Drag a new *when app starts* event code block from the *App* tray onto the code space to help keep our code organized.
 1. Create the following variables and initialize them using the information in this table:  
