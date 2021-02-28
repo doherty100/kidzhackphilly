@@ -4,7 +4,7 @@ In this lesson we'll continue building our *baseball toss* game by adding code t
 
 ## Review
 
-In previous lesson we added code that draws the baseball on the canvas when it is thrown at the target.
+In the previous lesson we added code that draws the baseball on the canvas when it is thrown at the target.
 
 ## Hands on
 

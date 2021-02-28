@@ -42,6 +42,7 @@ This repo contains resources and best practices for teaching digital fundamental
 * [11-games-part-04](./11-games-part-04/)
 * [12-games-part-05](./12-games-part-05/)
 * [13-games-part-06](./13-games-part-06/)
+* [14-games-part-07](./14-games-part-07/)
 
 ## Kano World fine print
 
