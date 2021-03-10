@@ -59,7 +59,7 @@ Okay, now that we have our plan, let's start coding! Go ahead and load the saved
     ![13-020](./images/13-020.jpg)  
 1. Now we can add our scoring code using the pythagorean theorem. This one is tricky so take your time. This is the formula we will be constructing using code blocks:  
     `distanceToBullseye = squareroot ( ( (crosshairX - targetX) ^ 2 ) + ( (crosshairY - targetY) ^ 2 ) )`
-    1. Locate the *when app starts* code block that starts with *set circleRadius to 80*.
+    1. Locate the *when app starts* code block that starts with *set lerPct to 0*.
     1. Locate the *else* portion of the *if lerpPct <= 100* code block. This is the code that runs when *lerpPct* = 100 at the end of the throw, which is when we want to see if the player scored any points.
     1. Drag the four code blocks starting with *set lerpPct to 0* and ending with *set baseballY to alienY* off to the side for later use.
     1. Drag a new *set variable* code block from the *Variables* tray and connect it to the inside of the *else* code block. Create a new variable called "distanceToBullseye".
