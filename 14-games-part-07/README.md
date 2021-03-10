@@ -34,14 +34,14 @@ Let's add some finishing touches to our game to make it better:
     1. Use the *Print line* code blocks to display the following messages in the terminal. Substitute your own Kano username for "MyKanoUsername".  
         Line | Message
         --- | ---
-        1 | ">>> Baseball Toss <<< by MyKanoUsername"
-        2 | "---------------------------------------------"
-        3 | "Here's how to play:"
-        4 | "\* Aim at the target using the mouse"
-        5 | "\* Hold down the mouse button to throw harder"
-        6 | "\* Score more points by hitting the target near the center"
-        7 | "\* Score as many points as you can in 60 seconds"
-        8 | "\* Click on on the canvas to start the game"
+        1 | >>> Baseball Toss <<< by MyKanoUsername
+        2 | ---------------------------------------------
+        3 | Here's how to play:
+        4 | \* Aim at the target using the mouse
+        5 | \* Hold down the mouse button to throw harder
+        6 | \* Score more points by hitting the target near the center
+        7 | \* Score as many points as you can in 60 seconds
+        8 | \* Click on on the canvas to start the game
     1. Verify your code looks like this:  
     ![14-020](./images/14-020.jpg)  
 1. Next, let's set the time limit to 60 seconds per game.
@@ -65,14 +65,14 @@ Let's add some finishing touches to our game to make it better:
     ![14-040](./images/14-040.jpg)  
 1. Next, let's print out the score when the game is over.
     1. Drag a new *Play* code block from the *Speaker* tray and connect it to the inside of the *else* portion of the previous *if do else* code block. Change "Claves" to "Challenge Complete".
-    1. Drag a new *Visible* code block from the *Terminal* tray and leave the value set to "show".
+    1. Drag a new *Visible* code block from the *Terminal* tray and connect it to the previous code block. Leave the value set to "show".
     1. Drag a new *Print line* code block from the *Terminal* tray and set it to "---------------------------------------------".
     1. Locate the *Print* code block in the *Terminal* tray:  
     ![00-500-530](../images/00-500-530.parts.terminal.print.jpg)  
     1. Drag a new *Print* code block from the *Terminal* tray and connect it to the previous code block. Change the value to "Score: ".
     1. Drag a new *Print line* code block from the *Terminal* tray and connect it to the previous code block.
     1. Drag a new *Get variable* code block from the *Variables* tray and connect it to the right of the previous code block. Change "item" to "score".
-    1. Drag a new *if do* code block from the *Logic* tray and connect it to te previous code block.
+    1. Drag a new *if do* code block from the *Logic* tray and connect it to the previous code block.
     1. Drag a new *Comparison* code block from the *Logic* tray and connect it to the right of the previous *if* statement. Change the operator to "> greater than".
     1. Drag a new *Get variable* code block from the *Variables* tray and connect it to the first slot of the previous code block. Change the value from "item" to "score".
     1. Drag a new *Get variable* code block from the *Variables* tray and connect it to the second slot of the previous code block. Change the value from "item" to "highScore".
